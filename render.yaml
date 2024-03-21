@@ -1,0 +1,7 @@
+services:
+ - type: web
+    name: toomany
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    staticPublishPath: public
